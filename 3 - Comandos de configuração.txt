@@ -1,0 +1,6 @@
+-> Comandos de configuração do GIT:
+
+	git --version: Mostra a versão atual do GIT.
+	git config --global user.name "seu nome aqui": Inserir ou alterar o nome do usuário salvo no GIT.
+	git config --global user.email "seuemail@aqui.com": Inserir ou alterar o e-mail do usuário salvo no GIT.
+	git config --global core.editor "caminho/doexecutavel/doeditor.exe": Alterar o editor padrão para o GIT.

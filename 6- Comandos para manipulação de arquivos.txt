@@ -1,0 +1,45 @@
+-> Comandos para manipulação dos arquivos no GIT:
+
+	- git init: Inicia o trabalho do GIT (que acontece na pasta .git).
+	
+	- git status: Mostra o que está armazenado no "container" (e mostra algumas outras coisas).
+	- git add: Move os arquivos e pastas que foram criadas e modificadas para uma espécie de "container".
+	- git restore --staged nomedoarquivo: Remove este arquivo do "container".
+	- . ou *: Significa todos.
+	
+	- git commit -m "comentário aqui": Move os arquivos que estão no "container" para uma pasta local (a pasta .git) junto com um comentário.
+	- git commit -am "Comentário aqui": Faz as funções do 'git add .'  e do 'git commit -m "mensagem aqui"' ao mesmo tempo.
+
+	- git log: Exibe as informações do commit (o nome e email da pessoa que fez, a data e hora e o comentário).
+	- git log --oneline: Exibe as informações do commit de forma mais organizada.
+	
+	- git log --graph: Mostra o desenho do grafo de commits (apenas o ramo atual).
+	- git log --graph --all: Mostra o desenho do grafo de commits (todos os ramos).
+	
+	- git diff: Exibe as últimas alterações feitas nos arquivos do projeto.
+	- git restore nomedoarquivo: Retorna este arquivo para uma versão anterior antes de dar commit (tipo um CTRL+Z).
+	- git reset --hard códigodocommit: Remove todos os commit's posteriores a este.
+	
+	- git checkout códigodocommit: Aponta o HEAD para o commit informado no código e exibe as alterações do projeto no editor.
+	- git checkout nomedaramificacao: Aponta o HEAD para a ramificação informada e exibe as alterações do último commit no editor.
+	
+	- git branch: Exibe o ramo do grafo de commits onde o projeto se encontra.
+	- git checkout -b nomedaramifiacao: Cria um novo branch (ramificação) e coloca ele como o pricipal (que recebrá os próximos commits).
+	- git branch -m novonome: Renomeia a BRANCH para o novo nome informado.
+	- git branch -d nomedabranch: Apaga a branch especificada.
+	
+	- git merge nomedoramoaserfundido: Fundi o ramo informado junto com o ramo principal (Fique na branch principal para dar este comando).
+	- git merge --abort: Cancela o merge (fundição).
+	
+	 - git remote: Verifica se existe um repositório remoto GITHUB.
+	- git remote add origin linkdorepositorio: Liga o repositório local com o repositório remoto (que foi criado no GITHUB).
+	- git remote -v: Exibe as informações do repositório remoto (que está no GITHUB).
+	
+	- git push -u origin main: Envia os arquivos para o GITHUB (pela 1ª vez).
+	- git push: Envia as alterações dos arquivos clonados localmente para o GITHUB (depois que já existe um repositório remoto adicionado).
+	
+	- git clone linkdapasta: Clona para uma pasta local a pasta remota indicada no link (pode ser uma pasta do GITHUB, por exemplo).
+	
+	- git pull: Pega as alterações feitas no arquivo que está no GITHUB e trás para o projeto local.
+
+	- git fetch: Faz o download das alterações que estão no GITHUB (diferente do git pull, ele não faz a fusão dos arquivos).

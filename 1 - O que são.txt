@@ -1,0 +1,4 @@
+-> O que são?
+
+- GIT: É um sistema de controle de versões isto é, armazenar todas as alterações que são feitas.
+- GITHUB: "Rede social de projetos", com ele é possível hospedar e compartilhar os seus projetos e interagir com os projetos de outras pessoas.

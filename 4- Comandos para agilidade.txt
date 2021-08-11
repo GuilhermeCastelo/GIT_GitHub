@@ -1,0 +1,11 @@
+-> Comando para agilidade no GIT:
+
+	clean: Limpar a tela.
+	q: Se o terminal travar, faz ele voltar a funcionar.
+	pwd: Mostra o caminho atual.
+	cd nomedapasta: Abre a pasta especificada. 
+	ls: Lista todas as pasta e arquivos do local atual.
+	ls -a: Lista todas as pastas e arquivos ocultos e visíveis do local atual.
+	mkdir nomedapasta: Cria uma nova pasta com o nome especificado.
+	touch nomedoarquivo.extensao: Cria um novo arquivo com o nome e a extensão especificada.
+	touch nomedapasta/nomedoarquivo.extensao: Cria um novo arquivo com o nome e a extensão dentro da pasta especificada.

@@ -1,0 +1,21 @@
+-> Termos importantes no GIT:
+
+	- Repositório/Diretório: Pasta onde os arquivos são colocados.
+	- Pasta .git: Diretório oculto onde o GIT armazena uma cópia dos seus arquivos.
+	- Container: Local onde fica (temporariamente) o conjunto de arquivos do seu projeto.
+	- Grafo de commits: Representação das mudanças feitas nos arquivos do seu projeto.
+	- Commit: Comando que envia as últimas alterações do arquivo para o GIT.
+	- Branch/Ramificação: É um dos commits do grafo de commits que ao ser usado.
+	- Nova ramificação: Ao ser usada, faz com que o ramo principal não se altere.
+	- Merge: Fundir uma ramificação com outra ramificação.
+	- Master: Ramo principal do grafo de commits.
+	- Main: Outro nome para o ramo principal do grafo de commits
+	- Head: É o ponto onde você se encontra atualmente no grafo de commits.
+	- Nodo (representado por um * no grafo de commits): Interseccção entre um commit e outro.
+	- Origin: Apelido dado ao repositório remoto (do GITHUB).
+	- LICENSE: Arquivo que contém a licença de uso do projeto.
+	- README: Arquivo de texto onde é documentado e exemplificado o funcionamento do seu projeto. No GITHUB, o README funciona como um cartão de visita para o seu projeto.
+	- .md: Extensão para linguagem de marcação de texto markdown.
+	- Fork: Fazer a clonagem de um repositório de outra pessoa para você no GITHUB.
+	- Pull request: Sugerir alteração em projeto de outra pessoa.
+	
